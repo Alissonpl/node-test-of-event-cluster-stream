@@ -1,0 +1,14 @@
+{
+  "name": "alisson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx autocannon -c 20000 -d 10 localhost:8000 --renderStatusCodes"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.10.0"
+  }
+}
